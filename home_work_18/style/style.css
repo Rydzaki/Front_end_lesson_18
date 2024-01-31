@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 548px;
+    height: 565px;
+    margin-top: 200px;
+    margin-left: 100px;
+    border: 2px solid black;
+    position: relative;
+    overflow: hidden;
+}
+.container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.btn{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border: 2px solid black;
+    border-radius: 2px;
+    background-color:  grey;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px;
+   /*  box-shadow: 5px 5px 10px black */
+
+}
+
+.btn button{
+    width: 40px;
+    height: 39px;
+    border-radius: 2px;
+    background-color: rgb(192, 192, 192);
+    box-shadow: 5px 5px 10px black;
+    margin: 0 3px;
+}
+
+.container img.selected{
+    border-radius: 0;
+}
